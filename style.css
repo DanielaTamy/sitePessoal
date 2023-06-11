@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "FontePersonalizada";
+    src: url("kathen/Kathen.otf") format("woff2"),
+         url("kathen/Kathen.woff") format("woff"),
+         url("kathen/Kathen.ttf") format("truetype");
+         
+}
+
+body{
+    background-color: #e6e2de;;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5e405b;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3a343d;
+}
+
+.PUCPR {
+   font-size: 30px; 
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #5e405b;
+  }
+
+.footer {
+    background-color: #5e405b;
+    color: aliceblue;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh; 
+    color:#83619173;
+    font-size: 50px;
+    font-family: "FontePersonalizada", regular_brush, sans-serif;
+    text-shadow: 1px 1px 1px rgb(71, 20, 67);
+    margin-top: 40px;
+}
+
+.retangulo {
+    width: 1200px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nome {
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 80px;
+    top: -360px;
+    margin-top: 0px;
+    font-family: cursive;
+    text-shadow: 3px 3px 1px rgb(143, 135, 192);
+    font-weight: bold;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+    position: relative;
+    top: 20%;
+    transform: translateY(20%);
+    left: 80px;
+}
+
+.insta{
+    width: 30px; 
+    height: 30px;
+    position: relative;
+    left: 90px;    
+    top: -350px;
+}
+
+.insta2{
+    position: relative;
+    left: 135px;
+    top: -400px;
+    color: rgb(79, 54, 95);
+}
+
+.texto-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+
+.texto {
+    color: #3a343d;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: -350px;
+    font-size: 24px;
+
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(102, 83, 134);
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa a {
+    text-decoration: none;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 18px;
+}
+
+.caixa p {
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 14px;
+}
+
+.prof{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    color:rgb(102, 83, 134);
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 800px; /* Defina o valor máximo desejado */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+.ec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 800px; /* Defina o valor máximo desejado */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+    margin-top: 100px;
+}
